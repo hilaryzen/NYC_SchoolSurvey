@@ -1,0 +1,300 @@
+﻿Question,Option,Measure,QuesText,OptionText
+1a,1a_1,Supportive Environment,1a. How many of the students in your class(es) feel it is important to come to school every day?,None
+1a,1a_2,Supportive Environment,1a. How many of the students in your class(es) feel it is important to come to school every day?,Some
+1a,1a_3,Supportive Environment,1a. How many of the students in your class(es) feel it is important to come to school every day?,A lot
+1a,1a_4,Supportive Environment,1a. How many of the students in your class(es) feel it is important to come to school every day?,All
+1b,1b_1,Supportive Environment,1b. How many of the students in your class(es) feel it is important to pay attention in class?,None
+1b,1b_2,Supportive Environment,1b. How many of the students in your class(es) feel it is important to pay attention in class?,Some
+1b,1b_3,Supportive Environment,1b. How many of the students in your class(es) feel it is important to pay attention in class?,A lot
+1b,1b_4,Supportive Environment,1b. How many of the students in your class(es) feel it is important to pay attention in class?,All
+1c,1c_1,Supportive Environment,1c. How many of the students in your class(es) think doing homework is important?,None
+1c,1c_2,Supportive Environment,1c. How many of the students in your class(es) think doing homework is important?,Some
+1c,1c_3,Supportive Environment,1c. How many of the students in your class(es) think doing homework is important?,A lot
+1c,1c_4,Supportive Environment,1c. How many of the students in your class(es) think doing homework is important?,All
+1d,1d_1,Supportive Environment,1d. How many of the students in your class(es) try hard to get good grades?,None
+1d,1d_2,Supportive Environment,1d. How many of the students in your class(es) try hard to get good grades?,Some
+1d,1d_3,Supportive Environment,1d. How many of the students in your class(es) try hard to get good grades?,A lot
+1d,1d_4,Supportive Environment,1d. How many of the students in your class(es) try hard to get good grades?,All
+2a,2a_1,Rigorous Instruction,"2a. Think about the class that you attend first on Mondays. In that class, to what extent are you challenged?",Never
+2a,2a_2,Rigorous Instruction,"2a. Think about the class that you attend first on Mondays. In that class, to what extent are you challenged?",Rarely
+2a,2a_3,Rigorous Instruction,"2a. Think about the class that you attend first on Mondays. In that class, to what extent are you challenged?",Sometimes
+2a,2a_4,Rigorous Instruction,"2a. Think about the class that you attend first on Mondays. In that class, to what extent are you challenged?",Almost always
+2b,2b_1,Rigorous Instruction,"2b. Think about the class that you attend first on Mondays. In that class, to what extent do you have to work hard to do well?",Never
+2b,2b_2,Rigorous Instruction,"2b. Think about the class that you attend first on Mondays. In that class, to what extent do you have to work hard to do well?",Rarely
+2b,2b_3,Rigorous Instruction,"2b. Think about the class that you attend first on Mondays. In that class, to what extent do you have to work hard to do well?",Sometimes
+2b,2b_4,Rigorous Instruction,"2b. Think about the class that you attend first on Mondays. In that class, to what extent do you have to work hard to do well?",Almost always
+2c,2c_1,Rigorous Instruction,"2c. Think about the class that you attend first on Mondays. In that class, to what extent do your teachers ask difficult questions on tests?",Never
+2c,2c_2,Rigorous Instruction,"2c. Think about the class that you attend first on Mondays. In that class, to what extent do your teachers ask difficult questions on tests?",Rarely
+2c,2c_3,Rigorous Instruction,"2c. Think about the class that you attend first on Mondays. In that class, to what extent do your teachers ask difficult questions on tests?",Sometimes
+2c,2c_4,Rigorous Instruction,"2c. Think about the class that you attend first on Mondays. In that class, to what extent do your teachers ask difficult questions on tests?",Almost always
+2d,2d_1,Rigorous Instruction,"2d. Think about the class that you attend first on Mondays. In that class, to what extent do your teachers ask difficult questions in class?  ",Never
+2d,2d_2,Rigorous Instruction,"2d. Think about the class that you attend first on Mondays. In that class, to what extent do your teachers ask difficult questions in class?  ",Rarely
+2d,2d_3,Rigorous Instruction,"2d. Think about the class that you attend first on Mondays. In that class, to what extent do your teachers ask difficult questions in class?  ",Sometimes
+2d,2d_4,Rigorous Instruction,"2d. Think about the class that you attend first on Mondays. In that class, to what extent do your teachers ask difficult questions in class?  ",Almost always
+3a,3a_1,Supportive Environment,"3a. Think about the class that you attend first on Mondays. In that class, to what extent do students work quietly and calmly?",Never
+3a,3a_2,Supportive Environment,"3a. Think about the class that you attend first on Mondays. In that class, to what extent do students work quietly and calmly?",Rarely
+3a,3a_3,Supportive Environment,"3a. Think about the class that you attend first on Mondays. In that class, to what extent do students work quietly and calmly?",Sometimes
+3a,3a_4,Supportive Environment,"3a. Think about the class that you attend first on Mondays. In that class, to what extent do students work quietly and calmly?",Almost always
+3b,3b_1,Supportive Environment,"3b. Think about the class that you attend first on Mondays. In that class, to what extent do students listen carefully when the teacher gives directions?",Never
+3b,3b_2,Supportive Environment,"3b. Think about the class that you attend first on Mondays. In that class, to what extent do students listen carefully when the teacher gives directions?",Rarely
+3b,3b_3,Supportive Environment,"3b. Think about the class that you attend first on Mondays. In that class, to what extent do students listen carefully when the teacher gives directions?",Sometimes
+3b,3b_4,Supportive Environment,"3b. Think about the class that you attend first on Mondays. In that class, to what extent do students listen carefully when the teacher gives directions?",Almost always
+3c,3c_1,Supportive Environment,"3c. Think about the class that you attend first on Mondays. In that class, to what extent do students follow the rules in class?",Never
+3c,3c_2,Supportive Environment,"3c. Think about the class that you attend first on Mondays. In that class, to what extent do students follow the rules in class?",Rarely
+3c,3c_3,Supportive Environment,"3c. Think about the class that you attend first on Mondays. In that class, to what extent do students follow the rules in class?",Sometimes
+3c,3c_4,Supportive Environment,"3c. Think about the class that you attend first on Mondays. In that class, to what extent do students follow the rules in class?",Almost always
+3d,3d_1,Supportive Environment,"3d. Think about the class that you attend first on Mondays. In that class, to what extent do students pay attention when they are supposed to?",Never
+3d,3d_2,Supportive Environment,"3d. Think about the class that you attend first on Mondays. In that class, to what extent do students pay attention when they are supposed to?",Rarely
+3d,3d_3,Supportive Environment,"3d. Think about the class that you attend first on Mondays. In that class, to what extent do students pay attention when they are supposed to?",Sometimes
+3d,3d_4,Supportive Environment,"3d. Think about the class that you attend first on Mondays. In that class, to what extent do students pay attention when they are supposed to?",Almost always
+3e,3e_1,Supportive Environment,"3e. Think about the class that you attend first on Mondays. In that class, to what extent do students work when they are supposed to?",Never
+3e,3e_2,Supportive Environment,"3e. Think about the class that you attend first on Mondays. In that class, to what extent do students work when they are supposed to?",Rarely
+3e,3e_3,Supportive Environment,"3e. Think about the class that you attend first on Mondays. In that class, to what extent do students work when they are supposed to?",Sometimes
+3e,3e_4,Supportive Environment,"3e. Think about the class that you attend first on Mondays. In that class, to what extent do students work when they are supposed to?",Almost always
+3f,3f_1,Supportive Environment,"3f. Think about the class that you attend first on Mondays. In that class, to what extent do students behave well even when the teacher isn't watching?",Never
+3f,3f_2,Supportive Environment,"3f. Think about the class that you attend first on Mondays. In that class, to what extent do students behave well even when the teacher isn't watching?",Rarely
+3f,3f_3,Supportive Environment,"3f. Think about the class that you attend first on Mondays. In that class, to what extent do students behave well even when the teacher isn't watching?",Sometimes
+3f,3f_4,Supportive Environment,"3f. Think about the class that you attend first on Mondays. In that class, to what extent do students behave well even when the teacher isn't watching?",Almost always
+4a,4a_1,Rigorous Instruction,4a. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? I learn a lot from feedback on my work.,Strongly disagree
+4a,4a_2,Rigorous Instruction,4a. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? I learn a lot from feedback on my work.,Disagree
+4a,4a_3,Rigorous Instruction,4a. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? I learn a lot from feedback on my work.,Agree
+4a,4a_4,Rigorous Instruction,4a. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? I learn a lot from feedback on my work.,Strongly agree
+4b,4b_1,Rigorous Instruction,4b. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? It's clear what I need to do to get a good grade.   ,Strongly disagree
+4b,4b_2,Rigorous Instruction,4b. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? It's clear what I need to do to get a good grade.   ,Disagree
+4b,4b_3,Rigorous Instruction,4b. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? It's clear what I need to do to get a good grade.   ,Agree
+4b,4b_4,Rigorous Instruction,4b. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? It's clear what I need to do to get a good grade.   ,Strongly agree
+4c,4c_1,Rigorous Instruction,4c. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? The work we do in class is good preparation for our class tests.  ,Strongly disagree
+4c,4c_2,Rigorous Instruction,4c. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? The work we do in class is good preparation for our class tests.  ,Disagree
+4c,4c_3,Rigorous Instruction,4c. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? The work we do in class is good preparation for our class tests.  ,Agree
+4c,4c_4,Rigorous Instruction,4c. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? The work we do in class is good preparation for our class tests.  ,Strongly agree
+4d,4d_1,Rigorous Instruction,4d. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? The homework assignments help me learn the course material.,Strongly disagree
+4d,4d_2,Rigorous Instruction,4d. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? The homework assignments help me learn the course material.,Disagree
+4d,4d_3,Rigorous Instruction,4d. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? The homework assignments help me learn the course material.,Agree
+4d,4d_4,Rigorous Instruction,4d. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? The homework assignments help me learn the course material.,Strongly agree
+4e,4e_1,Rigorous Instruction,4e. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? I know what my teacher wants me to learn in class.,Strongly disagree
+4e,4e_2,Rigorous Instruction,4e. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? I know what my teacher wants me to learn in class.,Disagree
+4e,4e_3,Rigorous Instruction,4e. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? I know what my teacher wants me to learn in class.,Agree
+4e,4e_4,Rigorous Instruction,4e. Think about the class that you attend first on Mondays. How much do you agree with the following statements about that class? I know what my teacher wants me to learn in class.,Strongly agree
+5a,5a_1,Rigorous Instruction,"5a.  How much do you agree with the following statements? In my classes, my teachers expect students to work hard. ",Strongly disagree
+5a,5a_2,Rigorous Instruction,"5a.  How much do you agree with the following statements? In my classes, my teachers expect students to work hard. ",Disagree
+5a,5a_3,Rigorous Instruction,"5a.  How much do you agree with the following statements? In my classes, my teachers expect students to work hard. ",Agree
+5a,5a_4,Rigorous Instruction,"5a.  How much do you agree with the following statements? In my classes, my teachers expect students to work hard. ",Strongly agree
+5b,5b_1,Rigorous Instruction,"5b.  How much do you agree with the following statements? In my classes, my teachers expect me to do my best all the time.",Strongly disagree
+5b,5b_2,Rigorous Instruction,"5b.  How much do you agree with the following statements? In my classes, my teachers expect me to do my best all the time.",Disagree
+5b,5b_3,Rigorous Instruction,"5b.  How much do you agree with the following statements? In my classes, my teachers expect me to do my best all the time.",Agree
+5b,5b_4,Rigorous Instruction,"5b.  How much do you agree with the following statements? In my classes, my teachers expect me to do my best all the time.",Strongly agree
+5c,5c_1,Rigorous Instruction,"5c.  How much do you agree with the following statements? In my classes, my teachers expect me to learn from my peers.",Strongly disagree
+5c,5c_2,Rigorous Instruction,"5c.  How much do you agree with the following statements? In my classes, my teachers expect me to learn from my peers.",Disagree
+5c,5c_3,Rigorous Instruction,"5c.  How much do you agree with the following statements? In my classes, my teachers expect me to learn from my peers.",Agree
+5c,5c_4,Rigorous Instruction,"5c.  How much do you agree with the following statements? In my classes, my teachers expect me to learn from my peers.",Strongly agree
+5d,5d_1,Rigorous Instruction,"5d.  How much do you agree with the following statements? In my classes, my teachers want students to become better thinkers, not just memorize things.",Strongly disagree
+5d,5d_2,Rigorous Instruction,"5d.  How much do you agree with the following statements? In my classes, my teachers want students to become better thinkers, not just memorize things.",Disagree
+5d,5d_3,Rigorous Instruction,"5d.  How much do you agree with the following statements? In my classes, my teachers want students to become better thinkers, not just memorize things.",Agree
+5d,5d_4,Rigorous Instruction,"5d.  How much do you agree with the following statements? In my classes, my teachers want students to become better thinkers, not just memorize things.",Strongly agree
+6a,6a_1,Supportive Environment,6a. How much do you agree with the following statements? I feel safe outside around this school.,Strongly disagree
+6a,6a_2,Supportive Environment,6a. How much do you agree with the following statements? I feel safe outside around this school.,Disagree
+6a,6a_3,Supportive Environment,6a. How much do you agree with the following statements? I feel safe outside around this school.,Agree
+6a,6a_4,Supportive Environment,6a. How much do you agree with the following statements? I feel safe outside around this school.,Strongly agree
+6b,6b_1,Supportive Environment,6b. How much do you agree with the following statements? I feel safe traveling between home and this school.,Strongly disagree
+6b,6b_2,Supportive Environment,6b. How much do you agree with the following statements? I feel safe traveling between home and this school.,Disagree
+6b,6b_3,Supportive Environment,6b. How much do you agree with the following statements? I feel safe traveling between home and this school.,Agree
+6b,6b_4,Supportive Environment,6b. How much do you agree with the following statements? I feel safe traveling between home and this school.,Strongly agree
+6c,6c_1,Supportive Environment,"6c. How much do you agree with the following statements? I feel safe in the hallways, bathrooms, locker rooms, and cafeteria of this school.",Strongly disagree
+6c,6c_2,Supportive Environment,"6c. How much do you agree with the following statements? I feel safe in the hallways, bathrooms, locker rooms, and cafeteria of this school.",Disagree
+6c,6c_3,Supportive Environment,"6c. How much do you agree with the following statements? I feel safe in the hallways, bathrooms, locker rooms, and cafeteria of this school.",Agree
+6c,6c_4,Supportive Environment,"6c. How much do you agree with the following statements? I feel safe in the hallways, bathrooms, locker rooms, and cafeteria of this school.",Strongly agree
+6d,6d_1,Supportive Environment,6d. How much do you agree with the following statements? I feel safe in my classes at this school.,Strongly disagree
+6d,6d_2,Supportive Environment,6d. How much do you agree with the following statements? I feel safe in my classes at this school.,Disagree
+6d,6d_3,Supportive Environment,6d. How much do you agree with the following statements? I feel safe in my classes at this school.,Agree
+6d,6d_4,Supportive Environment,6d. How much do you agree with the following statements? I feel safe in my classes at this school.,Strongly agree
+7a,7a_1,Supportive Environment,7a. How much do you agree with the following statements? Students in this school get to know each other well in classes.,Strongly disagree
+7a,7a_2,Supportive Environment,7a. How much do you agree with the following statements? Students in this school get to know each other well in classes.,Disagree
+7a,7a_3,Supportive Environment,7a. How much do you agree with the following statements? Students in this school get to know each other well in classes.,Agree
+7a,7a_4,Supportive Environment,7a. How much do you agree with the following statements? Students in this school get to know each other well in classes.,Strongly agree
+7b,7b_1,Supportive Environment,7b. How much do you agree with the following statements? Students in this school are very interested in getting to know other students.,Strongly disagree
+7b,7b_2,Supportive Environment,7b. How much do you agree with the following statements? Students in this school are very interested in getting to know other students.,Disagree
+7b,7b_3,Supportive Environment,7b. How much do you agree with the following statements? Students in this school are very interested in getting to know other students.,Agree
+7b,7b_4,Supportive Environment,7b. How much do you agree with the following statements? Students in this school are very interested in getting to know other students.,Strongly agree
+7c,7c_1,Supportive Environment,7c. How much do you agree with the following statements? Students in this school enjoy doing things with each other during school activities.,Strongly disagree
+7c,7c_2,Supportive Environment,7c. How much do you agree with the following statements? Students in this school enjoy doing things with each other during school activities.,Disagree
+7c,7c_3,Supportive Environment,7c. How much do you agree with the following statements? Students in this school enjoy doing things with each other during school activities.,Agree
+7c,7c_4,Supportive Environment,7c. How much do you agree with the following statements? Students in this school enjoy doing things with each other during school activities.,Strongly agree
+7d,7d_1,Supportive Environment,7d. How much do you agree with the following statements? Students in this school get to know each other really well.,Strongly disagree
+7d,7d_2,Supportive Environment,7d. How much do you agree with the following statements? Students in this school get to know each other really well.,Disagree
+7d,7d_3,Supportive Environment,7d. How much do you agree with the following statements? Students in this school get to know each other really well.,Agree
+7d,7d_4,Supportive Environment,7d. How much do you agree with the following statements? Students in this school get to know each other really well.,Strongly agree
+7e,7e_1,Supportive Environment,7e. How much do you agree with the following statements? Students in this school enjoy working together on projects in classes.,Strongly disagree
+7e,7e_2,Supportive Environment,7e. How much do you agree with the following statements? Students in this school enjoy working together on projects in classes.,Disagree
+7e,7e_3,Supportive Environment,7e. How much do you agree with the following statements? Students in this school enjoy working together on projects in classes.,Agree
+7e,7e_4,Supportive Environment,7e. How much do you agree with the following statements? Students in this school enjoy working together on projects in classes.,Strongly agree
+8a,8a_1,Supportive Environment,8a. How much do you agree with the following statements? The teachers at this school help me catch up if I am behind.,Strongly disagree
+8a,8a_2,Supportive Environment,8a. How much do you agree with the following statements? The teachers at this school help me catch up if I am behind.,Disagree
+8a,8a_3,Supportive Environment,8a. How much do you agree with the following statements? The teachers at this school help me catch up if I am behind.,Agree
+8a,8a_4,Supportive Environment,8a. How much do you agree with the following statements? The teachers at this school help me catch up if I am behind.,Strongly agree
+8b,8b_1,Supportive Environment,8b. How much do you agree with the following statements? The teachers at this school are willing to give extra help on schoolwork if I need it.,Strongly disagree
+8b,8b_2,Supportive Environment,8b. How much do you agree with the following statements? The teachers at this school are willing to give extra help on schoolwork if I need it.,Disagree
+8b,8b_3,Supportive Environment,8b. How much do you agree with the following statements? The teachers at this school are willing to give extra help on schoolwork if I need it.,Agree
+8b,8b_4,Supportive Environment,8b. How much do you agree with the following statements? The teachers at this school are willing to give extra help on schoolwork if I need it.,Strongly agree
+8c,8c_1,Supportive Environment,8c. How much do you agree with the following statements? The teachers at this school notice if I have trouble learning something.,Strongly disagree
+8c,8c_2,Supportive Environment,8c. How much do you agree with the following statements? The teachers at this school notice if I have trouble learning something.,Disagree
+8c,8c_3,Supportive Environment,8c. How much do you agree with the following statements? The teachers at this school notice if I have trouble learning something.,Agree
+8c,8c_4,Supportive Environment,8c. How much do you agree with the following statements? The teachers at this school notice if I have trouble learning something.,Strongly agree
+8d,8d_1,Supportive Environment,8d. How much do you agree with the following statements? The teachers at this school give me specific suggestions about how I can improve my work in class.,Strongly disagree
+8d,8d_2,Supportive Environment,8d. How much do you agree with the following statements? The teachers at this school give me specific suggestions about how I can improve my work in class.,Disagree
+8d,8d_3,Supportive Environment,8d. How much do you agree with the following statements? The teachers at this school give me specific suggestions about how I can improve my work in class.,Agree
+8d,8d_4,Supportive Environment,8d. How much do you agree with the following statements? The teachers at this school give me specific suggestions about how I can improve my work in class.,Strongly agree
+8e,8e_1,Supportive Environment,8e. How much do you agree with the following statements? The teachers at this school compliment me if I do good work.,Strongly disagree
+8e,8e_2,Supportive Environment,8e. How much do you agree with the following statements? The teachers at this school compliment me if I do good work.,Disagree
+8e,8e_3,Supportive Environment,8e. How much do you agree with the following statements? The teachers at this school compliment me if I do good work.,Agree
+8e,8e_4,Supportive Environment,8e. How much do you agree with the following statements? The teachers at this school compliment me if I do good work.,Strongly agree
+8f,8f_1,Supportive Environment,8f. How much do you agree with the following statements? The teachers at this school explain things a different way if I don't understand something in class.,Strongly disagree
+8f,8f_2,Supportive Environment,8f. How much do you agree with the following statements? The teachers at this school explain things a different way if I don't understand something in class.,Disagree
+8f,8f_3,Supportive Environment,8f. How much do you agree with the following statements? The teachers at this school explain things a different way if I don't understand something in class.,Agree
+8f,8f_4,Supportive Environment,8f. How much do you agree with the following statements? The teachers at this school explain things a different way if I don't understand something in class.,Strongly agree
+8g,8g_1,Supportive Environment,8g. How much do you agree with the following statements? The teachers at this school notice when I am upset or having emotional difficulty.,Strongly disagree
+8g,8g_2,Supportive Environment,8g. How much do you agree with the following statements? The teachers at this school notice when I am upset or having emotional difficulty.,Disagree
+8g,8g_3,Supportive Environment,8g. How much do you agree with the following statements? The teachers at this school notice when I am upset or having emotional difficulty.,Agree
+8g,8g_4,Supportive Environment,8g. How much do you agree with the following statements? The teachers at this school notice when I am upset or having emotional difficulty.,Strongly agree
+9a,9a_1,Rigorous Instruction,9a. How much do you agree with the following statements? I'm learning a lot in my classes at this school. ,Strongly disagree
+9a,9a_2,Rigorous Instruction,9a. How much do you agree with the following statements? I'm learning a lot in my classes at this school. ,Disagree
+9a,9a_3,Rigorous Instruction,9a. How much do you agree with the following statements? I'm learning a lot in my classes at this school. ,Agree
+9a,9a_4,Rigorous Instruction,9a. How much do you agree with the following statements? I'm learning a lot in my classes at this school. ,Strongly agree
+9b,9b_1,Trust,9b. How much do you agree with the following statements? I feel safe and comfortable with my teachers at this school.,Strongly disagree
+9b,9b_2,Trust,9b. How much do you agree with the following statements? I feel safe and comfortable with my teachers at this school.,Disagree
+9b,9b_3,Trust,9b. How much do you agree with the following statements? I feel safe and comfortable with my teachers at this school.,Agree
+9b,9b_4,Trust,9b. How much do you agree with the following statements? I feel safe and comfortable with my teachers at this school.,Strongly agree
+9c,9c_1,Trust,9c. How much do you agree with the following statements? There is at least one adult in the school that I can confide in.,Strongly disagree
+9c,9c_2,Trust,9c. How much do you agree with the following statements? There is at least one adult in the school that I can confide in.,Disagree
+9c,9c_3,Trust,9c. How much do you agree with the following statements? There is at least one adult in the school that I can confide in.,Agree
+9c,9c_4,Trust,9c. How much do you agree with the following statements? There is at least one adult in the school that I can confide in.,Strongly agree
+9d,9d_1,Trust,9d. How much do you agree with the following statements? My teachers will always listen to students' ideas.,Strongly disagree
+9d,9d_2,Trust,9d. How much do you agree with the following statements? My teachers will always listen to students' ideas.,Disagree
+9d,9d_3,Trust,9d. How much do you agree with the following statements? My teachers will always listen to students' ideas.,Agree
+9d,9d_4,Trust,9d. How much do you agree with the following statements? My teachers will always listen to students' ideas.,Strongly agree
+9e,9e_1,Trust,9e. How much do you agree with the following statements? My teachers always keep their promises.,Strongly disagree
+9e,9e_2,Trust,9e. How much do you agree with the following statements? My teachers always keep their promises.,Disagree
+9e,9e_3,Trust,9e. How much do you agree with the following statements? My teachers always keep their promises.,Agree
+9e,9e_4,Trust,9e. How much do you agree with the following statements? My teachers always keep their promises.,Strongly agree
+9f,9f_1,Trust,9f. How much do you agree with the following statements? My teachers treat me with respect.,Strongly disagree
+9f,9f_2,Trust,9f. How much do you agree with the following statements? My teachers treat me with respect.,Disagree
+9f,9f_3,Trust,9f. How much do you agree with the following statements? My teachers treat me with respect.,Agree
+9f,9f_4,Trust,9f. How much do you agree with the following statements? My teachers treat me with respect.,Strongly agree
+9g,9g_1,Trust,"9g. How much do you agree with the following statements? When my teachers tell me not to do something, I know they have a good reason.",Strongly disagree
+9g,9g_2,Trust,"9g. How much do you agree with the following statements? When my teachers tell me not to do something, I know they have a good reason.",Disagree
+9g,9g_3,Trust,"9g. How much do you agree with the following statements? When my teachers tell me not to do something, I know they have a good reason.",Agree
+9g,9g_4,Trust,"9g. How much do you agree with the following statements? When my teachers tell me not to do something, I know they have a good reason.",Strongly agree
+9h,9h_1,Rigorous Instruction,9h. How much do you agree with the following statements? My classes at this school really make me think. ,Strongly disagree
+9h,9h_2,Rigorous Instruction,9h. How much do you agree with the following statements? My classes at this school really make me think. ,Disagree
+9h,9h_3,Rigorous Instruction,9h. How much do you agree with the following statements? My classes at this school really make me think. ,Agree
+9h,9h_4,Rigorous Instruction,9h. How much do you agree with the following statements? My classes at this school really make me think. ,Strongly agree
+10a,10a_1,Collaborative Teachers,10a. How much do you agree with the following statements?  My teachers incorporate students' cultures/ backgrounds into the curriculum to make learning more meaningful.,Strongly disagree
+10a,10a_2,Collaborative Teachers,10a. How much do you agree with the following statements?  My teachers incorporate students' cultures/ backgrounds into the curriculum to make learning more meaningful.,Disagree
+10a,10a_3,Collaborative Teachers,10a. How much do you agree with the following statements?  My teachers incorporate students' cultures/ backgrounds into the curriculum to make learning more meaningful.,Agree
+10a,10a_4,Collaborative Teachers,10a. How much do you agree with the following statements?  My teachers incorporate students' cultures/ backgrounds into the curriculum to make learning more meaningful.,Strongly agree
+10a,10a_5,Collaborative Teachers,10a. How much do you agree with the following statements?  My teachers incorporate students' cultures/ backgrounds into the curriculum to make learning more meaningful.,I don't know
+10b,10b_1,Collaborative Teachers,10b. How much do you agree with the following statements? I see people of many cultures/backgrounds represented in the curriculum.,Strongly disagree
+10b,10b_2,Collaborative Teachers,10b. How much do you agree with the following statements? I see people of many cultures/backgrounds represented in the curriculum.,Disagree
+10b,10b_3,Collaborative Teachers,10b. How much do you agree with the following statements? I see people of many cultures/backgrounds represented in the curriculum.,Agree
+10b,10b_4,Collaborative Teachers,10b. How much do you agree with the following statements? I see people of many cultures/backgrounds represented in the curriculum.,Strongly agree
+10b,10b_5,Collaborative Teachers,10b. How much do you agree with the following statements? I see people of many cultures/backgrounds represented in the curriculum.,I don't know
+10c,10c_1,Collaborative Teachers,10c. How much do you agree with the following statements? My teachers connect to students of different cultures/backgrounds.,Strongly disagree
+10c,10c_2,Collaborative Teachers,10c. How much do you agree with the following statements? My teachers connect to students of different cultures/backgrounds.,Disagree
+10c,10c_3,Collaborative Teachers,10c. How much do you agree with the following statements? My teachers connect to students of different cultures/backgrounds.,Agree
+10c,10c_4,Collaborative Teachers,10c. How much do you agree with the following statements? My teachers connect to students of different cultures/backgrounds.,Strongly agree
+10c,10c_5,Collaborative Teachers,10c. How much do you agree with the following statements? My teachers connect to students of different cultures/backgrounds.,I don't know
+10d,10d_1,Collaborative Teachers,10d. How much do you agree with the following statements? My teachers can communicate well with parents/guardians from different cultures/backgrounds.,Strongly disagree
+10d,10d_2,Collaborative Teachers,10d. How much do you agree with the following statements? My teachers can communicate well with parents/guardians from different cultures/backgrounds.,Disagree
+10d,10d_3,Collaborative Teachers,10d. How much do you agree with the following statements? My teachers can communicate well with parents/guardians from different cultures/backgrounds.,Agree
+10d,10d_4,Collaborative Teachers,10d. How much do you agree with the following statements? My teachers can communicate well with parents/guardians from different cultures/backgrounds.,Strongly agree
+10d,10d_5,Collaborative Teachers,10d. How much do you agree with the following statements? My teachers can communicate well with parents/guardians from different cultures/backgrounds.,I don't know
+10e,10e_1,Collaborative Teachers,10e. How much do you agree with the following statements? My teachers appreciate my culture/background.,Strongly disagree
+10e,10e_2,Collaborative Teachers,10e. How much do you agree with the following statements? My teachers appreciate my culture/background.,Disagree
+10e,10e_3,Collaborative Teachers,10e. How much do you agree with the following statements? My teachers appreciate my culture/background.,Agree
+10e,10e_4,Collaborative Teachers,10e. How much do you agree with the following statements? My teachers appreciate my culture/background.,Strongly agree
+10e,10e_5,Collaborative Teachers,10e. How much do you agree with the following statements? My teachers appreciate my culture/background.,I don't know
+10f,10f_1,Supportive Environment,"10f. How much do you agree with the following statements? This school offers a wide enough variety of programs, classes and activities to keep me interested in school.",Strongly disagree
+10f,10f_2,Supportive Environment,"10f. How much do you agree with the following statements? This school offers a wide enough variety of programs, classes and activities to keep me interested in school.",Disagree
+10f,10f_3,Supportive Environment,"10f. How much do you agree with the following statements? This school offers a wide enough variety of programs, classes and activities to keep me interested in school.",Agree
+10f,10f_4,Supportive Environment,"10f. How much do you agree with the following statements? This school offers a wide enough variety of programs, classes and activities to keep me interested in school.",Strongly agree
+10f,10f_5,Supportive Environment,"10f. How much do you agree with the following statements? This school offers a wide enough variety of programs, classes and activities to keep me interested in school.",I don't know
+10g,10g_1,Supportive Environment,"10g. How much do you agree with the following statements? The programs, classes, and activities at this school encourage students to develop talent outside academics.  ",Strongly disagree
+10g,10g_2,Supportive Environment,"10g. How much do you agree with the following statements? The programs, classes, and activities at this school encourage students to develop talent outside academics.  ",Disagree
+10g,10g_3,Supportive Environment,"10g. How much do you agree with the following statements? The programs, classes, and activities at this school encourage students to develop talent outside academics.  ",Agree
+10g,10g_4,Supportive Environment,"10g. How much do you agree with the following statements? The programs, classes, and activities at this school encourage students to develop talent outside academics.  ",Strongly agree
+10g,10g_5,Supportive Environment,"10g. How much do you agree with the following statements? The programs, classes, and activities at this school encourage students to develop talent outside academics.  ",I don't know
+10h,10h_1,Supportive Environment,10h. How much do you agree with the following statements? This school is kept clean.,Strongly disagree
+10h,10h_2,Supportive Environment,10h. How much do you agree with the following statements? This school is kept clean.,Disagree
+10h,10h_3,Supportive Environment,10h. How much do you agree with the following statements? This school is kept clean.,Agree
+10h,10h_4,Supportive Environment,10h. How much do you agree with the following statements? This school is kept clean.,Strongly agree
+10h,10h_5,Supportive Environment,10h. How much do you agree with the following statements? This school is kept clean.,I don't know
+10i,10i_1,Supportive Environment,10i. How much do you agree with the following statements? Most of the teaching staff at this school are teaching me the organizational skills and work habits (like note-taking and keeping track of assignments) that I need to succeed in school.         ,Strongly disagree
+10i,10i_2,Supportive Environment,10i. How much do you agree with the following statements? Most of the teaching staff at this school are teaching me the organizational skills and work habits (like note-taking and keeping track of assignments) that I need to succeed in school.         ,Disagree
+10i,10i_3,Supportive Environment,10i. How much do you agree with the following statements? Most of the teaching staff at this school are teaching me the organizational skills and work habits (like note-taking and keeping track of assignments) that I need to succeed in school.         ,Agree
+10i,10i_4,Supportive Environment,10i. How much do you agree with the following statements? Most of the teaching staff at this school are teaching me the organizational skills and work habits (like note-taking and keeping track of assignments) that I need to succeed in school.         ,Strongly agree
+10i,10i_5,Supportive Environment,10i. How much do you agree with the following statements? Most of the teaching staff at this school are teaching me the organizational skills and work habits (like note-taking and keeping track of assignments) that I need to succeed in school.         ,I don't know
+10j,10j_1,Supportive Environment,10j. How much do you agree with the following statements? Most students at this school treat each other with respect.,Strongly disagree
+10j,10j_2,Supportive Environment,10j. How much do you agree with the following statements? Most students at this school treat each other with respect.,Disagree
+10j,10j_3,Supportive Environment,10j. How much do you agree with the following statements? Most students at this school treat each other with respect.,Agree
+10j,10j_4,Supportive Environment,10j. How much do you agree with the following statements? Most students at this school treat each other with respect.,Strongly agree
+10j,10j_5,Supportive Environment,10j. How much do you agree with the following statements? Most students at this school treat each other with respect.,I don't know
+10k,10k_1,Supportive Environment,"10k. How much do you agree with the following statements? At this school students with disabilities are included in all school activities (lunch, class trips, etc.).    ",Strongly disagree
+10k,10k_2,Supportive Environment,"10k. How much do you agree with the following statements? At this school students with disabilities are included in all school activities (lunch, class trips, etc.).    ",Disagree
+10k,10k_3,Supportive Environment,"10k. How much do you agree with the following statements? At this school students with disabilities are included in all school activities (lunch, class trips, etc.).    ",Agree
+10k,10k_4,Supportive Environment,"10k. How much do you agree with the following statements? At this school students with disabilities are included in all school activities (lunch, class trips, etc.).    ",Strongly agree
+10k,10k_5,Supportive Environment,"10k. How much do you agree with the following statements? At this school students with disabilities are included in all school activities (lunch, class trips, etc.).    ",I don't know
+11a,11a_1,Supportive Environment,11a. How much do you agree with the following statements? At this school students harass or bully other students.,None of the time
+11a,11a_2,Supportive Environment,11a. How much do you agree with the following statements? At this school students harass or bully other students.,Some of the time
+11a,11a_3,Supportive Environment,11a. How much do you agree with the following statements? At this school students harass or bully other students.,Most of the time
+11a,11a_4,Supportive Environment,11a. How much do you agree with the following statements? At this school students harass or bully other students.,All of the time
+11b,11b_1,Supportive Environment,"11b. How much do you agree with the following statements? At this school students harass or bully each other based on differences (such as race, color, ethnicity, national origin, citizenship/immigration status, religion, gender, gender identity, gender expression, sexual orientation, disability or weight).",None of the time
+11b,11b_2,Supportive Environment,"11b. How much do you agree with the following statements? At this school students harass or bully each other based on differences (such as race, color, ethnicity, national origin, citizenship/immigration status, religion, gender, gender identity, gender expression, sexual orientation, disability or weight).",Some of the time
+11b,11b_3,Supportive Environment,"11b. How much do you agree with the following statements? At this school students harass or bully each other based on differences (such as race, color, ethnicity, national origin, citizenship/immigration status, religion, gender, gender identity, gender expression, sexual orientation, disability or weight).",Most of the time
+11b,11b_4,Supportive Environment,"11b. How much do you agree with the following statements? At this school students harass or bully each other based on differences (such as race, color, ethnicity, national origin, citizenship/immigration status, religion, gender, gender identity, gender expression, sexual orientation, disability or weight).",All of the time
+11c,11c_1,Supportive Environment,11c. How much do you agree with the following statements? At this school students get into physical fights.,None of the time
+11c,11c_2,Supportive Environment,11c. How much do you agree with the following statements? At this school students get into physical fights.,Some of the time
+11c,11c_3,Supportive Environment,11c. How much do you agree with the following statements? At this school students get into physical fights.,Most of the time
+11c,11c_4,Supportive Environment,11c. How much do you agree with the following statements? At this school students get into physical fights.,All of the time
+11d,11d_1,Supportive Environment,"11d. How much do you agree with the following statements? At this school students drink alcohol, use illegal drugs, or abuse prescription drugs while at school.        ",None of the time
+11d,11d_2,Supportive Environment,"11d. How much do you agree with the following statements? At this school students drink alcohol, use illegal drugs, or abuse prescription drugs while at school.        ",Some of the time
+11d,11d_3,Supportive Environment,"11d. How much do you agree with the following statements? At this school students drink alcohol, use illegal drugs, or abuse prescription drugs while at school.        ",Most of the time
+11d,11d_4,Supportive Environment,"11d. How much do you agree with the following statements? At this school students drink alcohol, use illegal drugs, or abuse prescription drugs while at school.        ",All of the time
+11e,11e_1,Supportive Environment,11e. How much do you agree with the following statements? At this school there is gang activity.,None of the time
+11e,11e_2,Supportive Environment,11e. How much do you agree with the following statements? At this school there is gang activity.,Some of the time
+11e,11e_3,Supportive Environment,11e. How much do you agree with the following statements? At this school there is gang activity.,Most of the time
+11e,11e_4,Supportive Environment,11e. How much do you agree with the following statements? At this school there is gang activity.,All of the time
+12a,12a_1,Supportive Environment,"12a. If you are a student in grades 9-12, ANSWER this question. Adults at this school help students aspiring to enter the workforce, develop a plan to reach their future employment goals.",Strongly disagree
+12a,12a_2,Supportive Environment,"12a. If you are a student in grades 9-12, ANSWER this question. Adults at this school help students aspiring to enter the workforce, develop a plan to reach their future employment goals.",Disagree
+12a,12a_3,Supportive Environment,"12a. If you are a student in grades 9-12, ANSWER this question. Adults at this school help students aspiring to enter the workforce, develop a plan to reach their future employment goals.",Agree
+12a,12a_4,Supportive Environment,"12a. If you are a student in grades 9-12, ANSWER this question. Adults at this school help students aspiring to enter the workforce, develop a plan to reach their future employment goals.",Strongly agree
+12b,12b_1,Supportive Environment,"12b. If you are a student in grades 9-12, ANSWER this question. Adults at this school provide students with information about the college enrollment process.",Strongly disagree
+12b,12b_2,Supportive Environment,"12b. If you are a student in grades 9-12, ANSWER this question. Adults at this school provide students with information about the college enrollment process.",Disagree
+12b,12b_3,Supportive Environment,"12b. If you are a student in grades 9-12, ANSWER this question. Adults at this school provide students with information about the college enrollment process.",Agree
+12b,12b_4,Supportive Environment,"12b. If you are a student in grades 9-12, ANSWER this question. Adults at this school provide students with information about the college enrollment process.",Strongly agree
+12c,12c_1,Supportive Environment,"12c. If you are a student in grades 9-12, ANSWER this question. Adults at this school help keep me on track for college or career.",Strongly disagree
+12c,12c_2,Supportive Environment,"12c. If you are a student in grades 9-12, ANSWER this question. Adults at this school help keep me on track for college or career.",Disagree
+12c,12c_3,Supportive Environment,"12c. If you are a student in grades 9-12, ANSWER this question. Adults at this school help keep me on track for college or career.",Agree
+12c,12c_4,Supportive Environment,"12c. If you are a student in grades 9-12, ANSWER this question. Adults at this school help keep me on track for college or career.",Strongly agree
+12d,12d_1,Supportive Environment,"12d. If you are a student in grades 9-12, ANSWER this question. Adults at this school support students in navigating the post-secondary process.",Strongly disagree
+12d,12d_2,Supportive Environment,"12d. If you are a student in grades 9-12, ANSWER this question. Adults at this school support students in navigating the post-secondary process.",Disagree
+12d,12d_3,Supportive Environment,"12d. If you are a student in grades 9-12, ANSWER this question. Adults at this school support students in navigating the post-secondary process.",Agree
+12d,12d_4,Supportive Environment,"12d. If you are a student in grades 9-12, ANSWER this question. Adults at this school support students in navigating the post-secondary process.",Strongly agree
+12e,12e_1,Supportive Environment,"12e. If you are a student in grades 9-12, ANSWER this question. This school programs students with appropriate courses to achieve their postsecondary goals.",Strongly disagree
+12e,12e_2,Supportive Environment,"12e. If you are a student in grades 9-12, ANSWER this question. This school programs students with appropriate courses to achieve their postsecondary goals.",Disagree
+12e,12e_3,Supportive Environment,"12e. If you are a student in grades 9-12, ANSWER this question. This school programs students with appropriate courses to achieve their postsecondary goals.",Agree
+12e,12e_4,Supportive Environment,"12e. If you are a student in grades 9-12, ANSWER this question. This school programs students with appropriate courses to achieve their postsecondary goals.",Strongly agree
+12f,12f_1,Supportive Environment,"12f. If you are a student in grades 9-12, ANSWER this question. There is an adult who is helping me plan for my next steps after graduation (career planning, college selection and application process, financial aid process, etc.).                       ",Strongly disagree
+12f,12f_2,Supportive Environment,"12f. If you are a student in grades 9-12, ANSWER this question. There is an adult who is helping me plan for my next steps after graduation (career planning, college selection and application process, financial aid process, etc.).                       ",Disagree
+12f,12f_3,Supportive Environment,"12f. If you are a student in grades 9-12, ANSWER this question. There is an adult who is helping me plan for my next steps after graduation (career planning, college selection and application process, financial aid process, etc.).                       ",Agree
+12f,12f_4,Supportive Environment,"12f. If you are a student in grades 9-12, ANSWER this question. There is an adult who is helping me plan for my next steps after graduation (career planning, college selection and application process, financial aid process, etc.).                       ",Strongly agree
+13a,13a_1,Supportive Environment,"13a. If you are a student in grades 6-8, ANSWER this question. If you are a student in grades 9-12, SKIP this question. This school provides useful information to students about the application/enrollment process to high school.                         ",Strongly disagree
+13a,13a_2,Supportive Environment,"13a. If you are a student in grades 6-8, ANSWER this question. If you are a student in grades 9-12, SKIP this question. This school provides useful information to students about the application/enrollment process to high school.                         ",Disagree
+13a,13a_3,Supportive Environment,"13a. If you are a student in grades 6-8, ANSWER this question. If you are a student in grades 9-12, SKIP this question. This school provides useful information to students about the application/enrollment process to high school.                         ",Agree
+13a,13a_4,Supportive Environment,"13a. If you are a student in grades 6-8, ANSWER this question. If you are a student in grades 9-12, SKIP this question. This school provides useful information to students about the application/enrollment process to high school.                         ",Strongly agree
+13b,13b_1,Supportive Environment,"13b. If you are a student in grades 6-8, ANSWER this question. If you are a student in grades 9-12, SKIP this question. This school provides guidance for the application process for high school.                     ",Strongly disagree
+13b,13b_2,Supportive Environment,"13b. If you are a student in grades 6-8, ANSWER this question. If you are a student in grades 9-12, SKIP this question. This school provides guidance for the application process for high school.                     ",Disagree
+13b,13b_3,Supportive Environment,"13b. If you are a student in grades 6-8, ANSWER this question. If you are a student in grades 9-12, SKIP this question. This school provides guidance for the application process for high school.                     ",Agree
+13b,13b_4,Supportive Environment,"13b. If you are a student in grades 6-8, ANSWER this question. If you are a student in grades 9-12, SKIP this question. This school provides guidance for the application process for high school.                     ",Strongly agree
+13c,13c_1,Supportive Environment,"13c. If you are a student in grades 6-8, ANSWER this question. If you are a student in grades 9-12, SKIP this question. This school educates families about the application/enrollment process for high school.                    ",Strongly disagree
+13c,13c_2,Supportive Environment,"13c. If you are a student in grades 6-8, ANSWER this question. If you are a student in grades 9-12, SKIP this question. This school educates families about the application/enrollment process for high school.                    ",Disagree
+13c,13c_3,Supportive Environment,"13c. If you are a student in grades 6-8, ANSWER this question. If you are a student in grades 9-12, SKIP this question. This school educates families about the application/enrollment process for high school.                    ",Agree
+13c,13c_4,Supportive Environment,"13c. If you are a student in grades 6-8, ANSWER this question. If you are a student in grades 9-12, SKIP this question. This school educates families about the application/enrollment process for high school.                    ",Strongly agree
