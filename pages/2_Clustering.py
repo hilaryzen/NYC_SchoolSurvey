@@ -9,7 +9,7 @@ from sklearn.cluster import KMeans
 st.markdown("# Unsupervised Clustering")
 st.sidebar.markdown("# School Performance")
 
-df = st.session_state['df_2014']
+df = st.session_state['df_2014-15']
 # Normalize data
 scaler = MinMaxScaler()
 df_normal = pd.DataFrame(scaler.fit_transform(df.drop(columns=['DBN', 'School Name', 'Year'])))
