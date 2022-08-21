@@ -4,8 +4,6 @@ import pandas as pd
 import plotly.express as px
 import pydeck as pdk
 
-st.markdown("# Explore the NYC School Survey")
-
 def load_data():
     # Read in 2014 student survey data
     df_s = pd.read_csv('data/2014-15_Student_Val.csv', encoding='UTF-8', encoding_errors='ignore').drop_duplicates()
@@ -24,6 +22,10 @@ def load_data():
     # Read in school demographics data
     df_demographics = pd.read_csv('data/2014-19_Demographics.csv')
     df_demographics['LOCATION_CODE'] = df_demographics['DBN'].apply(lambda x: x[2:])
+    percent_cols = ['% Female Students', '% Male Students', '% Asian Students', '% Black Students', '% Hispanic Students', '% Students who are Multiple Race Categories Not Represented', '% White Students', '% Students with Disabilities', '% Students who are English Language Learners', '% Students in Poverty', 'Economic Need Index']
+    for col in percent_cols:
+        df_demographics[col] = df_demographics[col].multiply(100).round(0)
+    df_demographics.to_csv('dem_test.csv')
     # Read in school location data
     df_loc = pd.read_csv('data/2019_School_Locations.csv')
     df_loc = df_loc[['LOCATION_CODE', 'LONGITUDE', 'LATITUDE']].drop_duplicates()
@@ -39,29 +41,43 @@ if 'df' not in st.session_state:
 # df_dict = {'2014-15': {'Student': df_2014}}
 df_qs = st.session_state['df_qs']
 df = st.session_state['df']
-#df_test = df[['School Name', 'LOCATION_CODE', 'LONGITUDE', 'LATITUDE', 'Economic_Need_Index']]
-#df_test = df_test[df_test.isna().any(axis=1)]
-#print(df_test)
 
 # Add question select on sidebar
-year = st.sidebar.selectbox(
-    'Choose survey year',
-     ('2014-15', '2015-16', '2016-17', '2017-18', '2018-19'))
+# year = st.sidebar.selectbox(
+#     'Choose survey year',
+#      ('2014-15', '2015-16'))
+year = '2014-15'
 
 group = st.sidebar.selectbox(
     'Choose survey respondents',
      ('Student', 'Parent', 'Teacher'))
 
 ques = st.sidebar.selectbox(
-    'Choose question',
+    'Choose survey question',
      df_qs.loc[(df_qs['Year'] == year) & (df_qs['Group'] == group)]['QuesText'])
+
+dem = st.sidebar.selectbox(
+    'Choose demographic factor',
+     ('% Female Students', '% Male Students', '% Asian Students', '% Black Students', '% Hispanic Students', '% Students who are Multiple Race Categories Not Represented', '% White Students', '% Students with Disabilities', '% Students who are English Language Learners', '% Students in Poverty', 'Economic Need Index'))
 
 # Get question code for graph
 code = df_qs.loc[(df_qs['Year'] == year) & (df_qs['Group'] == group) & (df_qs['QuesText'] == ques)]['QuesNum'].values[0]
 
+st.markdown('# Explore the NYC School Survey')
+st.markdown('Created by Hilary Zen')
+st.markdown('Every year, the NYC School Survey is given to all parents, all teachers, and students in grades 6 to 12. This Streamlit app uses datasets from [NYC OpenData](https://opendata.cityofnewyork.us/) to analyze survey results from the 2014-2015 school year, and uncover correlations between survey performance and school demographics.')
+st.markdown('On the left sidebar, you can select the survey group (students, parents, or teachers), a survey question, and a demographic factor to compare against.')
+st.markdown('---')
+st.markdown('##### ' + ques)
+st.markdown('Positive responses: ' + df_qs.loc[df_qs['QuesNum'] == code]['PosAns'].values[0])
+st.markdown('Negative responses: ' + df_qs.loc[df_qs['QuesNum'] == code]['NegAns'].values[0])
+
+st.markdown('The map below shows each school as a column. Taller columns show a higher percentage of positive responses to the survey question, while the color indicates the demographic percentage. Light yellow means that the demographic is close to 0% of the student body, while dark red corresponds to 100%.')
+
 # Map
-map_df = df[['LONGITUDE', 'LATITUDE', 'Economic_Need_Index']].dropna(axis=0)
-# print(map_df.head().to_string())
+map_df = df[['LONGITUDE', 'LATITUDE', dem, code]].dropna(axis=0)
+map_df['Color_r'] = df[dem] / 100
+map_df['Color_g'] = (1 - df[dem] / 100) * 255
 st.pydeck_chart(pdk.Deck(map_style=None,
      initial_view_state=pdk.ViewState(
          latitude=40.74,
@@ -73,19 +89,17 @@ st.pydeck_chart(pdk.Deck(map_style=None,
          pdk.Layer(
             'ColumnLayer',
             data=map_df,
-            get_position=['LATITUDE', 'LONGITUDE'],
-            get_elevation='Economic_Need_Index',
-            get_fill_color=['255 - Economic_Need_Index', '(1 - Economic_Need_Index) * 255', 0, 140],
+            get_position=['LONGITUDE', 'LATITUDE'],
+            get_elevation=code,
+            get_fill_color=['255 - Color_r', 'Color_g', 0, 140],
             radius=100,
-            elevation_scale=2000,
-            #elevation_range=[0, 1000],
+            elevation_scale=50,
             pickable=True,
             auto_highlight=True
-            #extruded=True,
          )
      ],
      tooltip = {
-        "html": "<b>Elevation Value:</b> {Economic_Need_Index}",
+        "html": "<b>Demographic %:</b> {" + dem + "}<br> <b>Positive Answer %:</b> {" + code + "}",
         "style": {
             "backgroundColor": "steelblue",
             "color": "white"
@@ -93,6 +107,9 @@ st.pydeck_chart(pdk.Deck(map_style=None,
     }
  ))
 
+st.markdown('---')
+st.markdown('The scatterplot below shows the demographic factor on the x axis and the survey positive response % on the y axis.')
+
 # Scatter plot using question selected on sidebar
-fig = px.scatter(df[['Total Student Response Rate', code]], x='Total Student Response Rate', y=code, trendline='ols')
+fig = px.scatter(df[['School Name', dem, code]], x=dem, y=code, trendline='ols', hover_name='School Name')
 st.plotly_chart(fig, use_container_width=True)
