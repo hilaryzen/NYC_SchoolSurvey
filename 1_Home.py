@@ -22,7 +22,7 @@ def load_data():
     # Read in school demographics data
     df_demographics = pd.read_csv('data/2014-19_Demographics.csv')
     df_demographics['LOCATION_CODE'] = df_demographics['DBN'].apply(lambda x: x[2:])
-    percent_cols = ['% Female Students', '% Male Students', '% Asian Students', '% Black Students', '% Hispanic Students', '% Students who are Multiple Race Categories Not Represented', '% White Students', '% Students with Disabilities', '% Students who are English Language Learners', '% Students in Poverty', 'Economic Need Index']
+    percent_cols = ['Female', 'Male', 'Asian', 'Black', 'Hispanic', 'Multiple', 'White', 'Disability', 'ELL', 'Poverty', 'Need_Index']
     for col in percent_cols:
         df_demographics[col] = df_demographics[col].multiply(100).round(0)
     df_demographics.to_csv('dem_test.csv')
@@ -31,6 +31,7 @@ def load_data():
     df_loc = df_loc[['LOCATION_CODE', 'LONGITUDE', 'LATITUDE']].drop_duplicates()
     # Merge demographics and location
     df_demloc = pd.merge(df_demographics, df_loc, how = 'inner', on = 'LOCATION_CODE')
+    st.session_state['df_demloc'] = df_demloc
 
     # Merge survey and demographic data
     st.session_state['df'] = pd.merge(df, df_demloc, how='inner', on=['DBN', 'Year'])
@@ -56,9 +57,11 @@ ques = st.sidebar.selectbox(
     'Choose survey question',
      df_qs.loc[(df_qs['Year'] == year) & (df_qs['Group'] == group)]['QuesText'])
 
-dem = st.sidebar.selectbox(
+dem_text = st.sidebar.selectbox(
     'Choose demographic factor',
      ('% Female Students', '% Male Students', '% Asian Students', '% Black Students', '% Hispanic Students', '% Students who are Multiple Race Categories Not Represented', '% White Students', '% Students with Disabilities', '% Students who are English Language Learners', '% Students in Poverty', 'Economic Need Index'))
+dem_dict = {'% Female Students': 'Female', '% Male Students': 'Male', '% Asian Students': 'Asian', '% Black Students': 'Black', '% Hispanic Students': 'Hispanic', '% Students who are Multiple Race Categories Not Represented': 'Multiple', '% White Students': 'White', '% Students with Disabilities': 'Disability', '% Students who are English Language Learners': 'ELL', '% Students in Poverty': 'Poverty', 'Economic Need Index': 'Need_index'}
+dem = dem_dict[dem_text]
 
 # Get question code for graph
 code = df_qs.loc[(df_qs['Year'] == year) & (df_qs['Group'] == group) & (df_qs['QuesText'] == ques)]['QuesNum'].values[0]
